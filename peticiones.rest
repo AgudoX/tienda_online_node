@@ -1,0 +1,57 @@
+
+###
+
+GET http://localhost:3000/api/products
+
+###
+GET https://b0ea-84-17-62-182.eu.ngrok.io/api/clients
+
+###
+
+GET http://localhost:3000/api/products/available
+
+###
+GET http://localhost:3000/api/products/oficina
+
+###
+GET http://localhost:3000/api/products/colegio
+
+###
+GET http://localhost:3000/api/products/min/60
+
+###
+GET http://localhost:3000/api/products/min/60/max/1000
+
+###
+GET http://localhost:3000/api/products/stock/23
+
+###
+GET http://localhost:3000/api/products/6384ae391c52a784f9ca35bd
+
+###
+POST http://localhost:3000/api/products
+
+
+###
+GET http://localhost:3000/api/clients
+###
+POST http://localhost:3000/api/clients
+Content-Type: application/json
+
+{
+  "name": "Bienhallado",
+  "email": "bienvenido@gmail.com",
+  "address": "C. welcome",
+  "age": 29,
+  "active": false
+}
+
+
+###
+PUT http://localhost:3000/api/clients/6385eaa7aef26cbfb6e1463d
+
+###
+DELETE  http://localhost:3000/api/clients/6385eaa7aef26cbfb6e1463d
+
+###
+GET http://localhost:3000/api/clients/6385ea2eaef26cbfb6e14639/product/6384acb91c52a784f9ca35bb
